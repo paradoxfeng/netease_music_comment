@@ -8,7 +8,8 @@
 import scrapy
 
 
-class NeteaseMusicCommentItem(scrapy.Item):
+class MusicCommentItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    song_id = scrapy.Field()
+    comment = scrapy.Field()
