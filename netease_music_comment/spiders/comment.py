@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from scrapy import Request,FormRequest
-from music_comment.items import MusicCommentItem
+from netease_music_comment.items import MusicCommentItem
 from urllib.parse import urlencode
 import requests
 import re
@@ -33,7 +33,7 @@ class CommentSpider(scrapy.Spider):
 
     def start_requests(self):
         for url in self.start_urls:
-            for x in range(65,66):
+            for x in range(65,91):
                 yield Request(url.format(initial=x),dont_filter=True)
 
 

@@ -9,10 +9,10 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'music_comment'
+BOT_NAME = 'netease_music_comment'
 
-SPIDER_MODULES = ['music_comment.spiders']
-NEWSPIDER_MODULE = 'music_comment.spiders'
+SPIDER_MODULES = ['netease_music_comment.spiders']
+NEWSPIDER_MODULE = 'metease_music_comment.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
