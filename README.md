@@ -1,0 +1,4 @@
+scrapy 抓取网易云音乐所有评论
+
+有个问题没有解决，requests库能抓取到的网页的内容，scrapy抓取不到。
+是否可以改写scrapy.Request使用requests库的抓取方式。
